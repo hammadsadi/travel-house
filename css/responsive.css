@@ -1,0 +1,69 @@
+/* Small Devices */
+@media screen and (max-width: 600px) {
+  /* Nav */
+  nav ul {
+    display: none;
+  }
+  nav button {
+    display: block;
+  }
+  nav > a {
+    font-size: 1.5rem;
+  }
+  /* Banner */
+  .banner {
+    padding: 20px 10px;
+    background-position: center center;
+  }
+  .booking-form form {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .banner h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .booking-form form input,
+  .booking-form form select {
+    height: 50px;
+    padding: 0.5rem;
+  }
+  .banner p {
+    margin-bottom: 30px;
+  }
+}
+
+/* Medium Devices */
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  /* Nav */
+  nav ul {
+    display: none;
+  }
+  nav button {
+    display: block;
+  }
+  nav > a {
+    font-size: 1.5rem;
+  }
+  /* Banner */
+  .banner {
+    padding: 50px 20px;
+    background-position: center center;
+  }
+  .booking-form form {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .banner h3 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  .booking-form form input,
+  .booking-form form select {
+    height: 50px;
+    padding: 0.5rem;
+  }
+  .banner p {
+    margin-bottom: 30px;
+  }
+}
