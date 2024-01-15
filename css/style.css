@@ -289,3 +289,45 @@ nav button {
     "item6 item7 item7 item7";
   gap: 24px;
 }
+
+/* Why Chose Us Section Style */
+.why-chose-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.why-chose-content img {
+  width: 64px;
+  height: 64px;
+}
+.why-chose-item-1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  border-radius: 16px;
+  flex-basis: 500px;
+  padding: 32px;
+}
+.why-chose-item-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  border-radius: 16px;
+  flex-basis: 500px;
+  padding: 32px;
+}
+
+.why-chose-item-3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  border-radius: 16px;
+  flex-basis: 500px;
+  padding: 32px;
+}
+.why-chose-content h4 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 2rem 0rem 1rem 0rem;
+}

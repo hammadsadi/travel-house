@@ -64,6 +64,10 @@
       "item7";
     gap: 16px;
   }
+  /* why Chose */
+  .why-chose-content h4 {
+    font-size: 1rem;
+  }
 }
 
 /* Medium Devices */
