@@ -331,3 +331,41 @@ nav button {
   line-height: normal;
   margin: 2rem 0rem 1rem 0rem;
 }
+
+/* Footer Style */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 100px;
+  padding: 110px 0px;
+}
+.footer-content {
+  max-width: 769px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-top a {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #131318;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-top img {
+  width: 40px;
+  height: 46px;
+}
+.footer-top ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 2rem 0rem 3rem 0rem;
+}
+.footer-bottom p {
+  margin-top: 3rem;
+}
