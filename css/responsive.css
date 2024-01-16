@@ -68,15 +68,23 @@
   .why-chose-content h4 {
     font-size: 1rem;
   }
+  /* Perfect Palace */
+  .perfect-place-video-container h6 {
+    font-size: 0.8rem;
+    line-height: 15px; /* 150% */
+  }
 
   /* Newsletter */
-  .newsletter-content-area {
+  .newsletter-content-area,
+  .perfect-place-section-area {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
   .newsletter-content-container,
-  .newsletter-image-container {
+  .newsletter-image-container,
+  .perfect-place-content-container,
+  .perfect-place-video-container {
     width: 100%;
   }
   .discount {
@@ -153,13 +161,16 @@
     gap: 16px;
   }
   /* Newsletter */
-  .newsletter-content-area {
+  .newsletter-content-area,
+  .perfect-place-section-area {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
   .newsletter-content-container,
-  .newsletter-image-container {
+  .newsletter-image-container,
+  .perfect-place-content-container,
+  .perfect-place-video-container {
     width: 100%;
   }
 }

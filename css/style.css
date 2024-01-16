@@ -332,6 +332,57 @@ nav button {
   margin: 2rem 0rem 1rem 0rem;
 }
 
+/* Perfect Place Section Style*/
+.perfect-place-section-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.perfect-place-content-container {
+  width: 48%;
+}
+.perfect-place-video-container {
+  width: 48%;
+  position: relative;
+  text-align: center;
+}
+.perfect-place-video-container video {
+  border-radius: 16px;
+  width: 100%;
+}
+.perfect-place-video-container video[poster] {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.perfect-place-video-container h6 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.perfect-place-content-container p {
+  margin: 1.25rem 0rem;
+}
+.perfect-place-content-container ul li {
+  list-style-type: disc;
+  color: #131318;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.perfect-place-content-container ul li:last-child {
+  margin-bottom: 0rem;
+}
+.perfect-place-content-container button {
+  margin-top: 2rem;
+}
+
 /* Newsletter Section Style */
 .newsletter-content-area {
   display: flex;
