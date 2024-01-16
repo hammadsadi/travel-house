@@ -68,6 +68,40 @@
   .why-chose-content h4 {
     font-size: 1rem;
   }
+
+  /* Deal and Discount */
+  .deal-discount-content,
+  #deal-discount-content2 {
+    padding: 1rem;
+    flex-direction: column;
+    height: 500px;
+  }
+  #deal-discount-content2 {
+    justify-content: end;
+  }
+  .deal-content {
+    width: 100%;
+    padding: 10px;
+  }
+  .deal-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .deal-content h4 {
+    font-size: 1.25rem;
+    margin: 16px 0px 8px 0px;
+  }
+  .deal-content h5 {
+    margin: 12px 0px 16px 0px;
+  }
+  .deal-wrap-discription {
+    display: none;
+  }
+  .deal-content button {
+    padding: 8px 20px;
+    font-size: 1rem;
+  }
   /* Perfect Palace */
   .perfect-place-video-container h6 {
     font-size: 0.8rem;
@@ -159,6 +193,39 @@
       "item6"
       "item7";
     gap: 16px;
+  }
+  /* Deal and Discount */
+  .deal-discount-content,
+  #deal-discount-content2 {
+    padding: 1rem;
+    flex-direction: column;
+    height: 500px;
+  }
+  #deal-discount-content2 {
+    justify-content: end;
+  }
+  .deal-content {
+    width: 100%;
+    padding: 10px;
+  }
+  .deal-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .deal-content h4 {
+    font-size: 1.25rem;
+    margin: 16px 0px 8px 0px;
+  }
+  .deal-content h5 {
+    margin: 12px 0px 16px 0px;
+  }
+  .deal-wrap-discription {
+    display: none;
+  }
+  .deal-content button {
+    padding: 8px 20px;
+    font-size: 1rem;
   }
   /* Newsletter */
   .newsletter-content-area,

@@ -332,6 +332,60 @@ nav button {
   margin: 2rem 0rem 1rem 0rem;
 }
 
+/* Deal Discount Section Style */
+.deal-discount-content {
+  background-image: url("../Images/Group39.png");
+  background-repeat: no-repeat;
+  padding: 3.25rem 3.25rem 3.25rem 0rem;
+  display: flex;
+  justify-content: end;
+  border-radius: 16px;
+}
+#deal-discount-content2 {
+  background-image: url("../Images/Group40.png");
+  justify-content: start;
+  padding: 3.25rem 0rem 3.25rem 3.25rem;
+  margin-top: 1.5rem;
+}
+#deal-discount-content3 {
+  margin-top: 1.5rem;
+}
+.deal-content {
+  width: 45%;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 2rem;
+}
+.deal-content ul {
+  display: flex;
+  gap: 1.5rem;
+}
+.deal-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.deal-content ul li i {
+  color: var(--color-primary);
+}
+.deal-content h4 {
+  color: var(--color-secondary);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 1.5rem 0rem 1rem 0rem;
+}
+.deal-content h5 {
+  color: var(--color-primary);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 1rem 0rem 1.5rem 0rem;
+}
 /* Perfect Place Section Style*/
 .perfect-place-section-area {
   display: flex;
