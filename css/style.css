@@ -440,6 +440,46 @@ nav button {
   margin-top: 2rem;
 }
 
+/* Customer Review */
+.customer-review-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.customer {
+  padding: 1.5rem;
+  background: rgba(19, 19, 24, 0.05);
+  border-radius: 16px;
+}
+.customer > i {
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+}
+.customer p {
+  margin: 2rem 0rem 1rem 0rem;
+}
+.review-owner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.review-owner .owner-info ul {
+  display: flex;
+  gap: 8px;
+}
+.review-owner .owner-info ul li i {
+  color: var(--color-primary);
+}
+.owner-info h5 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.review-owner img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 /* Newsletter Section Style */
 .newsletter-content-area {
   display: flex;
