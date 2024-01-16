@@ -84,6 +84,9 @@ nav > a {
   display: flex;
   align-items: center;
 }
+.active {
+  color: var(--color-primary);
+}
 nav > a > img {
   width: 48px;
   height: 55px;
