@@ -332,6 +332,77 @@ nav button {
   margin: 2rem 0rem 1rem 0rem;
 }
 
+/* Newsletter Section Style */
+.newsletter-content-area {
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter-content-container {
+  width: 45%;
+  border-radius: 2rem;
+  border: 1px solid var(--color-primary);
+  padding: 40px;
+}
+.newsletter-image-container {
+  width: 50%;
+  position: relative;
+}
+.newsletter-image-container img {
+  height: 100%;
+}
+.discount {
+  border-radius: 16px;
+  background: var(--color-primary);
+  width: 45%;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: absolute;
+  right: 2.5%;
+  transform: rotate(-19.628deg);
+  bottom: 9%;
+}
+.discount p {
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.discount h4 {
+  color: #fff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.newsletter-content-container h3 {
+  font-size: 1.5rem;
+}
+.newsletter-content-container hr,
+.footer-content hr {
+  margin: 1.25rem 0rem;
+  background: rgba(19, 19, 24, 0.1);
+}
+.newsletter-content-container form input {
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem 0rem 1rem 1.25rem;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.newsletter-content-container form input:focus {
+  outline: none;
+}
+.newsletter-content-container form button {
+  width: 100%;
+}
+
 /* Footer Style */
 footer {
   background: rgba(19, 19, 24, 0.05);
@@ -339,7 +410,7 @@ footer {
   padding: 110px 0px;
 }
 .footer-content {
-  max-width: 769px;
+  width: 75%;
   margin: 0 auto;
   text-align: center;
 }
